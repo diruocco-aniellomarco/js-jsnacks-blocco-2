@@ -18,8 +18,8 @@ for (let i = 0; i < 10; i++) {
     else {
         listRandom.innerHTML += listNumber[i];
     }
-    
-    if ( i % 2 != 0) {
+    // posizione dispari non indice 
+    if ( i % 2 == 0) {
         if ( i != 9) {
             listOdd.innerHTML += listNumber[i] + ', ';
         }
